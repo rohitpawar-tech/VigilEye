@@ -7,3 +7,8 @@
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.0%2B-green.svg)](https://opencv.org/)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10%2B-red.svg)](https://google.github.io/mediapipe/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+**A computer vision powered safety solution that monitors driver alertness using facial landmark analysis and audio feedback to prevent fatigue-related accidents.**
+
+---
