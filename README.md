@@ -80,3 +80,12 @@ VigilEye/
 ├── requirements.txt        # Python dependencies
 └── README.md
 ```
+
+---
+
+## Installation & Setup
+
+### Prerequisites
+- Python 3.8 or higher
+- A working webcam
+- Virtual Environment (recommended)
