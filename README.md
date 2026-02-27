@@ -213,3 +213,9 @@ This project is licensed under the MIT License.
 **Rohit Pawar**  
 *Computer Vision Engineer & Python Developer*
 
+
+
+[GitHub]https://github.com/rohitpawar-tech/VigilEye | [LinkedIn]https://www.linkedin.com/in/rohit-pawar-54132a246/
+
+---
+
