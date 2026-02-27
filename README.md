@@ -89,3 +89,10 @@ VigilEye/
 - Python 3.8 or higher
 - A working webcam
 - Virtual Environment (recommended)
+
+- 
+### 1. Clone the Repository
+```bash
+git clone https://github.com/rohitpawar-tech/VigilEye
+cd VigilEye
+```
