@@ -58,3 +58,25 @@ VigilEye continuously monitors the driver's eyes via a standard webcam. If the s
 | **Audio** | Pygame |
 
 ---
+
+
+
+## Project Structure
+
+```text
+VigilEye/
+│
+├── main.py                 # Entry point & Main Application Loop
+├── utils/
+│   ├── __init__.py
+│   ├── ear_calculation.py  # EAR math logic & Landmark indices
+│   ├── alarm.py            # Audio handler class
+│   └── constants.py        # Configuration thresholds (EAR, Time)
+│
+├── assets/
+│   └── alarm.wav           # Audio trigger file
+│
+├── logs/                   # Auto-generated: Stores event logs
+├── requirements.txt        # Python dependencies
+└── README.md
+```
