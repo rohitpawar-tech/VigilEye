@@ -214,6 +214,10 @@ This project is licensed under the MIT License.
 *Computer Vision Engineer & Python Developer*
 
 
+<div align="center">
+  <sub>Built with ❤️ to make roads safer.</sub>
+</div>
+```
 
 [GitHub]https://github.com/rohitpawar-tech/VigilEye | [LinkedIn]https://www.linkedin.com/in/rohit-pawar-54132a246/
 
