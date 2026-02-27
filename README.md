@@ -181,3 +181,15 @@ $$ EAR = \frac{||p_2 - p_6|| + ||p_3 - p_5||}{2||p_1 - p_4||} $$
 ---
 
 
+## Demo Interface
+
+| State | Visual Indicator |
+| :--- | :--- |
+| **Awake** | Green eye contours, Status: "AWAKE" |
+| **Drowsy Warning** | Red eye contours, Countdown timer displayed |
+| **Alarm Active** | Flashing Red UI, Audio playing, Status: "WAKE UP!!" |
+
+---
+
+
+
