@@ -208,3 +208,8 @@ This project is licensed under the MIT License.
 
 ---
 
+## Author
+
+**Rohit Pawar**  
+*Computer Vision Engineer & Python Developer*
+
