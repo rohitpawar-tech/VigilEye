@@ -1,0 +1,12 @@
+2026-02-28 03:03:28,451 - WARNING - Audio file missing at C:\Users\JIJAU\OneDrive\Desktop\sleep_alarm_driver\assets\alarm.wav. Alarm disabled.
+2026-02-28 03:03:28,452 - INFO - System Started.
+2026-02-28 03:04:01,004 - WARNING - Drowsiness Alert #1 Triggered!
+2026-02-28 03:04:09,565 - INFO - Driver woke up. Alarm reset.
+2026-02-28 03:04:46,406 - WARNING - Drowsiness Alert #2 Triggered!
+2026-02-28 03:04:49,872 - INFO - Driver woke up. Alarm reset.
+2026-02-28 03:05:23,214 - INFO - System Stopped.
+2026-02-28 03:10:30,064 - WARNING - Audio file missing at C:\Users\JIJAU\OneDrive\Desktop\sleep_alarm_driver\assets\alarm.wav. Alarm disabled.
+2026-02-28 03:10:30,065 - INFO - System Started.
+2026-02-28 03:11:00,547 - WARNING - Drowsiness Alert #1 Triggered!
+2026-02-28 03:11:01,906 - INFO - Driver woke up. Alarm reset.
+2026-02-28 03:11:09,045 - INFO - System Stopped.
