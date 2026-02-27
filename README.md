@@ -119,3 +119,10 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+
+
+### 4. Setup Audio Asset
+Place a short sound file named `alarm.wav` inside the `assets/` folder.
+*(You can download any royalty-free alarm sound effect online).*
+
+---
