@@ -137,3 +137,12 @@ Run the application from the root directory:
 ```bash
 python main.py
 ```
+
+
+### Controls
+- **Close Eyes:** Simulate drowsiness. If closed for >10 seconds (default), alarm triggers.
+- **Open Eyes:** Resets the alarm and timer.
+- **Press `q`:** Exits the application.
+
+---
+
