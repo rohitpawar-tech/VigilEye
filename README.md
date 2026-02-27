@@ -44,3 +44,17 @@ VigilEye continuously monitors the driver's eyes via a standard webcam. If the s
 - **🧹 Modular Architecture:** Clean, object-oriented codebase separated into utilities, constants, and main logic.
 
 ---
+
+
+
+## 🛠️ Technology Stack
+
+| Component | Technology |
+| :--- | :--- |
+| **Language** | Python 3.8+ |
+| **Computer Vision** | OpenCV |
+| **Face Mesh** | Google MediaPipe |
+| **Math** | NumPy |
+| **Audio** | Pygame |
+
+---
