@@ -162,3 +162,22 @@ DROWSY_DURATION_SEC = 10
 
 ---
 
+
+
+## The Algorithm
+
+VigilEye computes the **Eye Aspect Ratio (EAR)** to determine eye openness.
+
+$$ EAR = \frac{||p_2 - p_6|| + ||p_3 - p_5||}{2||p_1 - p_4||} $$
+
+1. **Detection:** MediaPipe detects 468 facial landmarks.
+2. **Extraction:** We isolate 6 specific landmarks for each eye.
+3. **Calculation:** We compute the vertical vs. horizontal distances.
+4. **Thresholding:**
+   - If `EAR < 0.21`, the eye is considered **Closed**.
+   - If `EAR > 0.21`, the eye is considered **Open**.
+5. **State Machine:** A timer tracks consecutive "Closed" frames. If `time > threshold`, the alarm triggers.
+
+---
+
+
