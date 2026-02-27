@@ -12,3 +12,9 @@
 **A computer vision powered safety solution that monitors driver alertness using facial landmark analysis and audio feedback to prevent fatigue-related accidents.**
 
 ---
+
+
+
+##  About
+
+VigilEye is an intelligent surveillance system designed to enhance road safety by detecting early signs of driver fatigue. By leveraging the efficiency of **MediaPipe Face Mesh** and the geometric precision of the **Eye Aspect Ratio (EAR)** algorithm, VigilEye provides real-time feedback without the need for heavy hardware or deep learning models.
