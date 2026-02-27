@@ -201,3 +201,10 @@ $$ EAR = \frac{||p_2 - p_6|| + ||p_3 - p_5||}{2||p_1 - p_4||} $$
 
 ---
 
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
