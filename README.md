@@ -126,3 +126,14 @@ Place a short sound file named `alarm.wav` inside the `assets/` folder.
 *(You can download any royalty-free alarm sound effect online).*
 
 ---
+
+
+
+
+##  Usage
+
+Run the application from the root directory:
+
+```bash
+python main.py
+```
