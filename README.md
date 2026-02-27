@@ -192,4 +192,12 @@ $$ EAR = \frac{||p_2 - p_6|| + ||p_3 - p_5||}{2||p_1 - p_4||} $$
 ---
 
 
+##  Future Enhancements
+
+- [ ] Yawning detection (mouth aspect ratio)
+- [ ] Head pose estimation (detecting if driver is looking at the road)
+- [ ] SMS/Email alert integration for fleet management
+- [ ] Mobile app deployment (using Kivy or React Native)
+
+---
 
