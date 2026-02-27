@@ -24,3 +24,8 @@ VigilEye is an intelligent surveillance system designed to enhance road safety b
 
 ### The Problem
 Driver fatigue is a leading cause of road accidents globally. Microsleeps (unintentional moments of zoning out) can last for seconds but have fatal consequences at high speeds.
+
+### The Solution
+VigilEye continuously monitors the driver's eyes via a standard webcam. If the system detects that the eyes have been closed beyond a safe threshold (configurable), it triggers an immediate audible alarm to jolt the driver back to alertness.
+
+---
