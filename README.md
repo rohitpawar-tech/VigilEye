@@ -18,3 +18,9 @@
 ##  About
 
 VigilEye is an intelligent surveillance system designed to enhance road safety by detecting early signs of driver fatigue. By leveraging the efficiency of **MediaPipe Face Mesh** and the geometric precision of the **Eye Aspect Ratio (EAR)** algorithm, VigilEye provides real-time feedback without the need for heavy hardware or deep learning models.
+
+
+
+
+### The Problem
+Driver fatigue is a leading cause of road accidents globally. Microsleeps (unintentional moments of zoning out) can last for seconds but have fatal consequences at high speeds.
