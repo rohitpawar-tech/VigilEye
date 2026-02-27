@@ -29,3 +29,18 @@ Driver fatigue is a leading cause of road accidents globally. Microsleeps (unint
 VigilEye continuously monitors the driver's eyes via a standard webcam. If the system detects that the eyes have been closed beyond a safe threshold (configurable), it triggers an immediate audible alarm to jolt the driver back to alertness.
 
 ---
+
+
+
+
+##  Key Features
+
+- **🚀 High Performance:** Optimized with MediaPipe for sub-millisecond latency on CPU.
+- **👁️ Geometric Precision:** Calculates Eye Aspect Ratio (EAR) using 6-point facial landmarks for accurate blink detection.
+- **🔊 Audio Feedback:** Integrated Pygame-based alarm system that loops until the driver re-engages.
+- **📊 Real-Time Metrics:** Displays live FPS, confidence scores, and an event alert counter.
+- **📝 Event Logging:** Automatically timestamps and logs drowsiness events to a local file for review.
+- **⚙️ Highly Configurable:** Easily adjust sensitivity and alarm duration via the config file.
+- **🧹 Modular Architecture:** Clean, object-oriented codebase separated into utilities, constants, and main logic.
+
+---
