@@ -96,3 +96,11 @@ VigilEye/
 git clone https://github.com/rohitpawar-tech/VigilEye
 cd VigilEye
 ```
+
+
+### 2. Create Virtual Environment
+**Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
