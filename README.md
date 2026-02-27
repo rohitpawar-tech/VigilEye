@@ -146,3 +146,19 @@ python main.py
 
 ---
 
+
+
+## Configuration
+
+You can customize the detection sensitivity by editing `utils/constants.py`:
+
+```python
+# Sensitivity: Lower value = more sensitive
+EAR_THRESH = 0.21 
+
+# Duration: Seconds eyes must be closed before alarm
+DROWSY_DURATION_SEC = 10 
+```
+
+---
+
