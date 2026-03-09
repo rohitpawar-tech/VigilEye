@@ -190,3 +190,7 @@ def demo():
     analytics.print_summary()
 
     export_statistics()
+
+
+if __name__ == "__main__":
+    demo()
