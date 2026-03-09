@@ -46,3 +46,30 @@ def read_events(self):
                 events.append(row)
 
         return events
+
+class FatigueAnalytics:
+
+    def __init__(self):
+        self.logger = EventLogger()
+
+    def total_events(self):
+        events = self.logger.read_events()
+        return len(events)
+
+    def events_by_day(self):
+        events = self.logger.read_events()
+
+        stats = defaultdict(int)
+
+        for e in events:
+            date = e["timestamp"].split(" ")[0]
+            stats[date] += 1
+
+        return dict(stats)
+
+    def average_ear(self):
+        events = self.logger.read_events()
+
+        if not events:
+            return 0
+
