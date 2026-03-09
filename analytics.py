@@ -32,3 +32,17 @@ class EventLogger:
                 ear_value,
                 duration
             ])
+
+def read_events(self):
+        events = []
+
+        if not os.path.exists(LOG_FILE):
+            return events
+
+        with open(LOG_FILE, "r") as file:
+            reader = csv.DictReader(file)
+
+            for row in reader:
+                events.append(row)
+
+        return events
