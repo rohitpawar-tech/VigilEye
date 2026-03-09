@@ -91,3 +91,19 @@ class FatigueAnalytics:
                 longest = duration
 
         return longest
+ def print_summary(self):
+        print("\n===== FATIGUE ANALYTICS REPORT =====\n")
+
+        print("Total Events:", self.total_events())
+
+        print("\nEvents Per Day:")
+        stats = self.events_by_day()
+
+        for day, count in stats.items():
+            print(day, ":", count)
+
+        print("\nAverage EAR:", round(self.average_ear(), 3))
+
+        print("Longest Drowsy Event:", self.longest_drowsy_event(), "seconds")
+
+        print("\n====================================\n")
