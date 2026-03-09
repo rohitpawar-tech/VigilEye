@@ -107,3 +107,16 @@ class FatigueAnalytics:
         print("Longest Drowsy Event:", self.longest_drowsy_event(), "seconds")
 
         print("\n====================================\n")
+
+class SessionTracker:
+
+    def __init__(self):
+        self.start_time = datetime.now()
+        self.events = []
+
+    def add_event(self, ear, duration):
+        self.events.append({
+            "ear": ear,
+            "duration": duration,
+            "time": datetime.now()
+        })
