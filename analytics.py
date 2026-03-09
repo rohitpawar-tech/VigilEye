@@ -78,3 +78,16 @@ class FatigueAnalytics:
             total += float(e["ear_value"])
 
         return total / len(events)
+
+  def longest_drowsy_event(self):
+        events = self.logger.read_events()
+
+        longest = 0
+
+        for e in events:
+            duration = float(e["duration"])
+
+            if duration > longest:
+                longest = duration
+
+        return longest
