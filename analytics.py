@@ -169,3 +169,24 @@ def export_statistics():
                 date,
                 count
             ])
+def demo():
+
+    logger = EventLogger()
+
+    logger.log_event(
+        event_type="drowsy",
+        ear_value=0.18,
+        duration=4
+    )
+
+    logger.log_event(
+        event_type="drowsy",
+        ear_value=0.17,
+        duration=5
+    )
+
+    analytics = FatigueAnalytics()
+
+    analytics.print_summary()
+
+    export_statistics()
