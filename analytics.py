@@ -137,4 +137,15 @@ class SessionTracker:
             total += e["ear"]
 
         return total / len(self.events)
+  def session_report(self):
+
+        print("\n===== SESSION REPORT =====\n")
+
+        print("Session Duration:", self.session_length(), "seconds")
+
+        print("Drowsiness Events:", self.event_count())
+
+        print("Average EAR:", round(self.average_ear(), 3))
+
+        print("\n==========================\n")
 
