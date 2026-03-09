@@ -120,3 +120,21 @@ class SessionTracker:
             "duration": duration,
             "time": datetime.now()
         })
+
+ def session_length(self):
+        return (datetime.now() - self.start_time).seconds
+
+    def event_count(self):
+        return len(self.events)
+
+    def average_ear(self):
+        if not self.events:
+            return 0
+
+        total = 0
+
+        for e in self.events:
+            total += e["ear"]
+
+        return total / len(self.events)
+
