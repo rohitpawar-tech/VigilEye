@@ -21,3 +21,14 @@ class EventLogger:
                     "ear_value",
                     "duration"
                 ])
+              def log_event(self, event_type, ear_value, duration):
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+        with open(LOG_FILE, "a", newline="") as file:
+            writer = csv.writer(file)
+            writer.writerow([
+                timestamp,
+                event_type,
+                ear_value,
+                duration
+            ])
