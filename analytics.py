@@ -149,3 +149,23 @@ class SessionTracker:
 
         print("\n==========================\n")
 
+def export_statistics():
+
+    analytics = FatigueAnalytics()
+
+    stats = analytics.events_by_day()
+
+    with open("logs/daily_summary.csv", "w", newline="") as file:
+
+        writer = csv.writer(file)
+
+        writer.writerow([
+            "date",
+            "fatigue_events"
+        ])
+
+        for date, count in stats.items():
+            writer.writerow([
+                date,
+                count
+            ])
