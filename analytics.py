@@ -8,3 +8,6 @@ class EventLogger:
  def __init__(self):
         self.ensure_log_directory()
         self.ensure_file()
+   def ensure_log_directory(self):
+        if not os.path.exists("logs"):
+            os.makedirs("logs")
