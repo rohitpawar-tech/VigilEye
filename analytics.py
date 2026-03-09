@@ -72,4 +72,9 @@ class FatigueAnalytics:
 
         if not events:
             return 0
+  total = 0
 
+        for e in events:
+            total += float(e["ear_value"])
+
+        return total / len(events)
